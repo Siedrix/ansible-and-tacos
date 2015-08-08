@@ -1,0 +1,5 @@
+---
+- hosts: tacoserver
+  tasks:
+    - name: Hello world
+      debug: hello world
