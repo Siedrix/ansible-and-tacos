@@ -1,5 +1,11 @@
 ---
 - hosts: tacoserver
+  sudo: yes
+  roles:
+    - nodejs
   tasks:
-    - name: Imprime tacos
-      debug: Tacos a las 11
+    - name: Iniciar la aplicacion
+      command: forever start /var/app/tacos.js
+    - name: Env
+      debug: msg="Env {{ env_name }}"
+

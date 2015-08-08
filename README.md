@@ -16,9 +16,10 @@ Add Ansible
 
 ## Types
 
-- Playbooks:
-- Hosts:
-- Roles:
+- Playbooks: A compendium of host and tasks
+- Inventary: A repository of servers
+- Hosts: 
+- Roles: Collection of task
 - Plays:
-- Tasks:
+- Tasks: A task(command, install something)
 
