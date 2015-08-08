@@ -1,0 +1,5 @@
+---
+- hosts: appserver
+  tasks:
+    - name: Hello world
+      debug: hello world
